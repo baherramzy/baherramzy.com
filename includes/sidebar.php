@@ -1,8 +1,6 @@
 <div id="sidebar-wrapper">
+	<i class="close-btn fa fa-times fa-2x pull-left"></i>
 	<ul class="sidebar-nav">
-		<li class="brand">
-			<a href="#">Baher Ramzy</a>
-		</li>
 		<li>
 			<a href="about">About</a>
 		</li>

@@ -7,3 +7,10 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<header>
+	<!-- Menu toggle button -->
+	<div class="menu-toggle-container">
+		<i class="menu-toggle fa fa-bars fa-2x"></i>
+	</div>
+</header>
