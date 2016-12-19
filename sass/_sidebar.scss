@@ -35,7 +35,7 @@ $sidebar-width: 200px;
 				text-decoration: none;
 
 				&:hover, &:focus {
-					background-color: rgba($primary, 0.4);
+					background-color: $primary;
 				}
 			}
 		}
