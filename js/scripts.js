@@ -11,5 +11,13 @@ $(function() {
 
 	$('.close-btn').on('click', function() {
 		$('#sidebar-wrapper').removeClass('open');
+	});
+
+	// Show the sidebar nav menu if the user
+	// has scrolled to the bottom of the homepage
+	$(window).on('scroll load', function() {
+		if($(window).scrollTop() + $(window).height() == $(document).height()) {
+			$('#sidebar-wrapper').addClass('open');
+		}
 	})
 });
