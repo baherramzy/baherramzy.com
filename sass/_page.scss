@@ -1,6 +1,13 @@
+.full-stretch {
+	height: 100vh; /* Because screw IE */
+	min-height: 540px; /* needs media */
+	width: 100%;
+}
+
 .box {
 	color: $primary;
 	background-color: $secondary;
+	margin-top: 60px;
 	box-shadow: 1px 1px 2px #777;
 	padding: 15px;
 	display: inline-block;

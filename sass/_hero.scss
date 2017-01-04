@@ -1,0 +1,103 @@
+.hero {
+	background-color: $secondary;
+	position: relative;
+
+	.card {
+		width: 40%;
+		margin: 0 30%;
+		position: absolute;
+		-webkit-transform: translateY(60%);
+		   -moz-transform: translateY(60%);
+		    -ms-transform: translateY(60%);
+		     -o-transform: translateY(60%);
+		        transform: translateY(60%);
+
+		&-img {
+			float: left;
+			margin-right: 50px;
+
+			img {
+				border-radius: 100%;
+				border: 0;
+				width: 200px;
+				height: 200px;
+
+				@include media(480) {
+					margin: 0 auto;
+					display: block;
+				}
+			}
+
+			@include media(480) {
+				width: 100%;
+			}
+		}
+
+		&-details {
+			color: $primary;
+			-webkit-transform: translateY(15%);
+			   -moz-transform: translateY(15%);
+			    -ms-transform: translateY(15%);
+			     -o-transform: translateY(15%);
+			        transform: translateY(15%);
+
+			h2, h3 {
+				margin: 0 0 10px 0;
+			}
+			
+			.social	{
+				text-align: center;
+				display: inline-block;
+
+				a {
+					color: $primary;
+					-webkit-transition: all .25s ease;
+					   -moz-transition: all .25s ease;
+					    -ms-transition: all .25s ease;
+					     -o-transition: all .25s ease;
+					        transition: all .25s ease;
+
+					&:hover {
+						color: $primary;
+					}
+				}
+
+				.fa {
+					margin-right: 10px;
+				}
+
+				@include media(480) {
+					width: 100%;
+					margin-top: 15px;
+					font-size: 20px;
+				}
+			}
+
+			.name {
+				font-weight: bold;
+			}
+
+			.email > a:hover {
+				color: $primary;
+				text-decoration: underline;
+			}
+
+			@include media(480) {
+				text-align: center;
+			}
+		}
+
+		@include media(768) {
+			width: 70%;
+			margin: 0 15%;
+		}
+
+		@include media(480) {
+			-webkit-transform: translateY(30%);
+			   -moz-transform: translateY(30%);
+			    -ms-transform: translateY(30%);
+			     -o-transform: translateY(30%);
+			        transform: translateY(30%);
+		}
+	}
+}
