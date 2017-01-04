@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Baher Ramzy | Portfolio</title>
+	<title>Baher Ramzy | Software Developer | Toronto, Canada</title>
+	<meta name="description" content="I'm a Toronto based software developer, experienced in front-end and backend web development">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 </head>
